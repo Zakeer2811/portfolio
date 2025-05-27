@@ -896,7 +896,7 @@ const DarkRoom = ({ children }) => {
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-yellow-200 opacity-80 leading-relaxed max-w-2xl mx-auto">
               Move your torch to discover hidden messages…
               <br />
-              Find the 🔓 button to reveal the app.
+              Find the 🔓 button to reveal the portfolio.
             </p>
           </div>
 

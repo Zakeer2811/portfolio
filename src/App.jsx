@@ -977,7 +977,9 @@ const JakirPortfolio = () => {
       </div>
     );
   };
+
   // Add these keyframes to your CSS
+
   /*
   @keyframes float {
     0%, 100% { transform: translateY(0); }
@@ -1389,10 +1391,19 @@ const JakirPortfolio = () => {
                 {portfolioData.personalInfo.name}
               </span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-300">
+            <p
+              className={`text-xl md:text-2xl mb-8 ${
+                darkMode ? "text-gray-200" : "text-gray-900"
+              }`}
+            >
               {portfolioData.personalInfo.title}
             </p>
-            <p className="text-lg mb-12 max-w-3xl mx-auto text-gray-600 dark:text-gray-300">
+
+            <p
+              className={`text-lg mb-12 max-w-3xl mx-auto ${
+                darkMode ? "text-gray-300" : "text-gray-800"
+              }`}
+            >
               {portfolioData.personalInfo.bio}
             </p>
 
