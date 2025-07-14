@@ -66,10 +66,6 @@ import "./index.css";
 
 import emailjs from "@emailjs/browser";
 
-// Inside your component:
-
-// Then paste this where your Contact Section begins:
-
 const JakirPortfolio = () => {
   const form = useRef();
   const [messageSent, setMessageSent] = useState(false);
@@ -521,11 +517,11 @@ const JakirPortfolio = () => {
                 ? "neonBorderGlow 3s linear infinite"
                 : "neonBorderGlow 3s linear infinite"
               : "none",
-            filter: !darkMode ? `blur(1px)` : "none", // Apply blur effect to light theme (like current dark theme)
+            filter: !darkMode ? `blur(1px)` : "none", 
           }}
         />
 
-        {/* Enhanced colored border with shimmer effect */}
+        {}
         <div
           className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-all duration-500 p-0.5"
           style={{
