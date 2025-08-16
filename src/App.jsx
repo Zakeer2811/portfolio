@@ -114,7 +114,7 @@ const JakirPortfolio = () => {
       codechef: "https://codechef.com/users/jakir_2811",
       bio: "Whether you're here out of curiosity, collaboration, or opportunity,  I hope you came across something meaningful or useful.Feel free to reach out, share your thoughts, or simply say hello—I’d love to hear from you.",
       avatar: "/api/placeholder/300/300",
-      leetcodeProblems: 750,
+      leetcodeProblems: 850,
       githubRepos: 20,
       linkedinConnections: 500,
     },
@@ -125,7 +125,7 @@ const JakirPortfolio = () => {
         startDate: "Nov 2022",
         endDate: "April 2026",
         location: "Vijayawada, India",
-        gpa: "9.22/10",
+        gpa: "9.25/10",
         achievements: ["Active in Technical Events"],
       },
     ],
@@ -347,7 +347,7 @@ const JakirPortfolio = () => {
         organization: "LeetCode",
         date: "Mar 2025",
         description:
-          "Solved 700+ problems with multiple streak badges (365, 300, 200, 100, 50 days). Authored 36 solutions with 5k+ views.",
+          "Solved 850+ problems with multiple streak badges (500,365 days and 2024 annual badge). Authored 36 solutions with 5.3k+ views.",
         badge: "🏆",
       },
       {
@@ -392,12 +392,13 @@ const JakirPortfolio = () => {
       },
     ],
     certifications: [
+       "ServiceNow CAD (Aug 2025)",
       "ServiceNow CSA (Mar 2025)",
       "Foundations of R Software (Nov 2024)",
       "AWS Data Engineering (Jun 2024)",
       "AWS Machine Learning Foundations (Apr 2024)",
       "Social Networks (Jun 2024)",
-      "NDG Linux (Nov 2023)",
+     
     ],
   };
 
@@ -1500,7 +1501,7 @@ const JakirPortfolio = () => {
                     <span className="font-medium">CGPA</span>
                   </div>
                   <p className={darkMode ? "text-gray-300" : "text-gray-600"}>
-                    9.22/10
+                    9.25/10
                   </p>
                 </div>
                 <div
@@ -1529,11 +1530,11 @@ const JakirPortfolio = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span>LeetCode Problems</span>
-                    <span className="font-bold text-green-500">750+</span>
+                    <span className="font-bold text-green-500">850+</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span>GitHub Repositories</span>
-                    <span className="font-bold text-blue-500">19</span>
+                    <span className="font-bold text-blue-500">22</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span>LinkedIn Connections</span>
